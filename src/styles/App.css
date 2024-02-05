@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	background-color: aquamarine;
+}
+
+.button-wrap {	
+	display: flex;
+	justify-content: space-between;
+  align-items: center;
+	width: 1080px;
+}
+
+.button-wrap>button {
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	font-size: large;
+	cursor: pointer;
+}
+
+.button-wrap>button:hover {
+	color: white;
+}
+
+.folder-list {
+	text-align: center;
+}
