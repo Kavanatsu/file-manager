@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	background-color: aquamarine;
+}
+
+.button-wrap {	
+	display: flex;
+	justify-content: space-between;
+  align-items: center;
+	width: 1080px;
+}
+
+.button-wrap>a {
+	color: black;
+	text-decoration: none;
+	font-size: x-large;
+	cursor: pointer;
+}
+
+.button-wrap>a:hover {
+	color: white;
+}

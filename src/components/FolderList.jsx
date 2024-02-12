@@ -1,4 +1,4 @@
-import React from "react";
+
 import Folder from "./Folder";
 
 const FolderList = ({folders}) => {

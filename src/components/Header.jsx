@@ -1,15 +1,15 @@
-import React from "react";
+import '../styles/Header.css'
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="header">
+		<div className="header">
 			<div className="button-wrap">
-				<button>Главная</button>
-				<button>Регистрация</button>
-				<button>Вход</button>
-				<button>Выход</button>
+				<Link to="/main">Главная</Link>
+				<Link to="/auth">Вход</Link>
+				<Link to="/register">Регистрация</Link>
 			</div>
-    </div>
+		</div>
   );
 }
 

@@ -1,0 +1,10 @@
+.myForm {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(198, 248, 232);
+	padding: 50px;
+	margin-top: 30px;
+	border-radius: 30px;
+}
